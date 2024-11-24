@@ -57,10 +57,6 @@ const ReviewSlider = () => {
                 <p>{review.text}</p>
                 <p>- {review.name}</p>
             </div>
-        //   <ReviewCard key={index}>
-        //     <ReviewText>"{review.text}"</ReviewText>
-        //     <ReviewerName>- {review.name}</ReviewerName>
-        //   </ReviewCard>
         ))}
       </Slider>
     </SliderContainer>
