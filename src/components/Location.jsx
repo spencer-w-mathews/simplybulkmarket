@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Header } from "./Home";
 import logo from '../logo.png';
 
+
 const Location = () => {
   return (
     <Container>
@@ -11,7 +12,15 @@ const Location = () => {
       </Header>
       <Subheading>Visit Us at Our Location</Subheading>
       <MapWrapper>
- 
+      <iframe 
+      title="Simply Bulk Market Location"
+       width="100%"
+       height="400"
+       style={{ border: 0 }} 
+       loading="lazy" 
+       allowfullscreen 
+       src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG_jpygr5a4cRBxzMtuS2hSU&key=${process.env.REACT_APP_Google_Map}`}
+       ></iframe>
       </MapWrapper>
 
       {/* Info Section */}
