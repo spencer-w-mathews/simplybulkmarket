@@ -48,18 +48,7 @@ function Home() {
         </ul>
       </Hours>
 
-      <Footer>
-        <p>Follow us:</p>
-        <SocialIcons>
-          <a href="https://www.facebook.com/SimplyBulkMarket/" target="_blank" rel="noreferrer">
-            <FaFacebook />
-          </a>
-          <a href="https://www.instagram.com/simplybulkmarket/" target="_blank" rel="noreferrer">
-            <FaInstagram />
-          </a>
-        </SocialIcons>
-        <p>&copy; 2024 Simply Bulk Market</p>
-      </Footer>
+
     </Container>
   );
 }
@@ -73,6 +62,7 @@ export const Container = styled.div`
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  text-align: center;
 `;
 
 export const Header = styled.header`

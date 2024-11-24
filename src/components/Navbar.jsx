@@ -17,8 +17,8 @@ const Navbar = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuItem href="#home">Home</MenuItem>
-        <MenuItem href="#location">Location</MenuItem>
+        <MenuItem href="home">Home</MenuItem>
+        <MenuItem href="location">Location</MenuItem>
         <MenuItem href="#about">About Us</MenuItem>
         <MenuItem href="#faq">FAQ</MenuItem>
         <MenuItem href="#tour">Tour</MenuItem>
