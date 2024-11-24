@@ -11,15 +11,7 @@ const Location = () => {
       </Header>
       <Subheading>Visit Us at Our Location</Subheading>
       <MapWrapper>
-      <iframe 
-      title="Simply Bulk Market Location"
-       width="100%"
-       height="400"
-       style={{ border: 0 }} 
-       loading="lazy" 
-       allowfullscreen 
-       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG_jpygr5a4cRBxzMtuS2hSU&key=AIzaSyDgW3LSJeorIExFt4IhSQZ_lwAawbufk38"
-       ></iframe>
+ 
       </MapWrapper>
 
       {/* Info Section */}

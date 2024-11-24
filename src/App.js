@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Location from "./components/Location";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home, { Footer, SocialIcons } from "./components/Home";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/about" element={<About />}/>
         <Route path="*" element={<Home />} />
         {/* Add other routes here */}
       </Routes>
