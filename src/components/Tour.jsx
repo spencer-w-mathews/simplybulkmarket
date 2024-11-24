@@ -24,6 +24,7 @@ const Container = styled.div`
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
+  margin-bottom: 10vh;
 `;
 
 const Subheading = styled.p`
