@@ -2,8 +2,6 @@ import styled from "styled-components";
 import React from "react";
 import logo from "../logo.png"
 import ReviewSlider from "./ReviewSlider";
-import { FaStar } from "react-icons/fa";
-
 
 function Home() {
   return (
