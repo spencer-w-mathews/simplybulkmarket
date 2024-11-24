@@ -5,7 +5,6 @@ const Location = () => {
   return (
     <Container>
       <Subheading>Visit Us at Our Location</Subheading>
-
       <MapWrapper>
       <iframe 
       title="Simply Bulk Market Location"
