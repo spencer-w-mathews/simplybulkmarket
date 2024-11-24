@@ -7,7 +7,6 @@ const About = () => {
       <Heading>About Us</Heading>
       <Subheading>Learn More About Simply Bulk Market</Subheading>
 
-
       <Content>
         <Section>
           <h2>Simply Bulk Market</h2>
