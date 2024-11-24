@@ -12,12 +12,14 @@ const Navbar = () => {
 
   return (
     <Nav>
+        <a href="#/" style={{cursor: 'pointer'}}>
       <img src={NavName} alt="simply bulk market" height={30}/>
+      </a>
       <Hamburger onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuItem href="#/home" onClick={toggleMenu}>Home</MenuItem>
+        <MenuItem href="#/" onClick={toggleMenu}>Home</MenuItem>
         <MenuItem href="#/location" onClick={toggleMenu}> Location</MenuItem>
         <MenuItem href="#/about" onClick={toggleMenu}>About Us</MenuItem>
         <MenuItem href="#/faq" onClick={toggleMenu}>FAQ</MenuItem>
