@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simplybulkmarket/static/css/main.bd5f33af.css",
-    "main.js": "/simplybulkmarket/static/js/main.fcdfd7b3.js",
+    "main.js": "/simplybulkmarket/static/js/main.fb5aef65.js",
     "static/js/453.da315dc0.chunk.js": "/simplybulkmarket/static/js/453.da315dc0.chunk.js",
     "static/media/matterportscreenshot.png": "/simplybulkmarket/static/media/matterportscreenshot.f2cac593659557f45a7f.png",
     "static/media/logo.png": "/simplybulkmarket/static/media/logo.d2f6a2452bdd4a1e299f.png",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/simplybulkmarket/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/simplybulkmarket/index.html",
     "main.bd5f33af.css.map": "/simplybulkmarket/static/css/main.bd5f33af.css.map",
-    "main.fcdfd7b3.js.map": "/simplybulkmarket/static/js/main.fcdfd7b3.js.map",
+    "main.fb5aef65.js.map": "/simplybulkmarket/static/js/main.fb5aef65.js.map",
     "453.da315dc0.chunk.js.map": "/simplybulkmarket/static/js/453.da315dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd5f33af.css",
-    "static/js/main.fcdfd7b3.js"
+    "static/js/main.fb5aef65.js"
   ]
 }
