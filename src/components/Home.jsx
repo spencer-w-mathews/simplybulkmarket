@@ -1,26 +1,31 @@
 import styled from "styled-components";
 import React from "react";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import logo from '../logo.png';
+import logo from "../logo.png"
+import ReviewSlider from "./ReviewSlider";
+import { FaStar } from "react-icons/fa";
+
 
 function Home() {
   return (
     <Container>
       <Header>
         <img src={logo} height='130vh' alt="logo"/>
+        <p>
+          Zero Waste Bulk Market offering food, spices, pet supplies, personal care items, coffees, teas, and more.
+        </p>
       </Header>
-
-      <Hero>
+      {/* <Hero>
         <h2>Welcome to Simply Bulk Market</h2>
         <p>
           Zero Waste Bulk Market offering food, spices, pet supplies, personal care items, coffees, teas, and more.
         </p>
-      </Hero>
+      </Hero> */}
+      <ReviewSlider />
 
       <Section>
         <h3>What's New</h3>
         <p>
-          <a href="#virtualTour" target="_blank" rel="noreferrer">Check out our new virtual tour!</a>
+          <a href="#/tour" target="_blank" rel="noreferrer">Check out our new virtual tour!</a>
         </p>
       </Section>
 
@@ -61,20 +66,17 @@ export const Container = styled.div`
   color: #333;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   text-align: center;
 `;
 
 export const Header = styled.header`
   text-align: center;
   background: #f4f4f4;
-  margin-top: 20px;
   padding: 1rem 0;
   border-bottom: 2px solid #ddd;
-  height: 20vh;
-  margin-right: 1rem;
-  margin-left: 1rem;
   border-radius: 10px;
+  margin-bottom: 20px;
 `;
 
 export const Logo = styled.div`
@@ -94,8 +96,6 @@ export const Hero = styled.section`
   padding: 2rem;
   background: #eafbea;
   border-radius: 10px;
-  margin-right: 1rem;
-  margin-left: 1rem;
 
   h2 {
     font-size: 2rem;
@@ -112,11 +112,9 @@ export const Hero = styled.section`
 export const Section = styled.section`
   margin: 2rem 0;
   padding: 1.5rem;
-  background: #fff4e3;
-  border: 1px solid #ffd7a3;
+  background: #eafbea;
+  border: 1px solid #2a6f42;
   border-radius: 10px;
-  margin-right: 1rem;
-  margin-left: 1rem;
 
   h3 {
     font-size: 1.5rem;

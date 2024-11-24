@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavName from "../NavName.png"
@@ -12,16 +12,16 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <div></div>
+      <img src={NavName} alt="simply bulk market" height={30}/>
       <Hamburger onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuItem href="#/home">Home</MenuItem>
-        <MenuItem href="#/location">Location</MenuItem>
-        <MenuItem href="#/about">About Us</MenuItem>
-        <MenuItem href="#/faq">FAQ</MenuItem>
-        <MenuItem href="#/tour">Tour</MenuItem>
+        <MenuItem href="#/home" onClick={toggleMenu}>Home</MenuItem>
+        <MenuItem href="#/location" onClick={toggleMenu}> Location</MenuItem>
+        <MenuItem href="#/about" onClick={toggleMenu}>About Us</MenuItem>
+        <MenuItem href="#/faq" onClick={toggleMenu}>FAQ</MenuItem>
+        <MenuItem href="#/tour" onClick={toggleMenu}> Tour</MenuItem>
       </Menu>
     </Nav>
   );
@@ -33,7 +33,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 0rem;
   background: #f4f4f4;
   position: sticky;
   top: 0;

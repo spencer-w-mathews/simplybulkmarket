@@ -1,15 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Header } from "./Home";
-import logo from '../logo.png';
-
 
 const Location = () => {
   return (
     <Container>
-      <Header>
-        <img src={logo} height='130vh' alt="logo"/>
-      </Header>
       <Subheading>Visit Us at Our Location</Subheading>
       <MapWrapper>
       <iframe 
@@ -59,12 +53,6 @@ const Container = styled.div`
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
-`;
-
-const Heading = styled.h1`
-  text-align: center;
-  font-size: 2.5rem;
-  color: #2a6f42;
 `;
 
 const Subheading = styled.p`

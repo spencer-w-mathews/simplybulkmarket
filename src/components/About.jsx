@@ -54,7 +54,7 @@ export default About;
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 2rem;
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
@@ -64,6 +64,7 @@ const Heading = styled.h1`
   text-align: center;
   font-size: 2.5rem;
   color: #2a6f42;
+  
 `;
 
 const Subheading = styled.p`
