@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { FaBars, FaTimes } from "react-icons/fa";
-import NavName from "../NavName.png"
+import NavName from "../NavName.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,18 +12,35 @@ const Navbar = () => {
 
   return (
     <Nav>
-        <a href="#/" style={{cursor: 'pointer'}}>
-      <img src={NavName} alt="simply bulk market" height={30}/>
+      <a href="#/" style={{ cursor: "pointer" }}>
+        <img
+          src={NavName}
+          alt="simply bulk market"
+          height={30}
+          style={{ marginLeft: "5px" }}
+        />
       </a>
       <Hamburger onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuItem href="#/" onClick={toggleMenu}>Home</MenuItem>
-        <MenuItem href="#/location" onClick={toggleMenu}> Location</MenuItem>
-        <MenuItem href="#/about" onClick={toggleMenu}>About Us</MenuItem>
-        <MenuItem href="#/faq" onClick={toggleMenu}>FAQ</MenuItem>
-        <MenuItem href="#/tour" onClick={toggleMenu}> Tour</MenuItem>
+        <MenuItem href="#/" onClick={toggleMenu}>
+          Home
+        </MenuItem>
+        <MenuItem href="#/location" onClick={toggleMenu}>
+          {" "}
+          Location
+        </MenuItem>
+        <MenuItem href="#/about" onClick={toggleMenu}>
+          About Us
+        </MenuItem>
+        <MenuItem href="#/faq" onClick={toggleMenu}>
+          FAQ
+        </MenuItem>
+        <MenuItem href="#/tour" onClick={toggleMenu}>
+          {" "}
+          Tour
+        </MenuItem>
       </Menu>
     </Nav>
   );

@@ -8,8 +8,7 @@ const Tour = () => {
     <Container>
       <Subheading>Virtual Tour</Subheading>
       <MapWrapper>
-      <img src={matterport} alt='matterport' style={{  width: '80%',
-  height: 'auto'}}/>
+      <img src={matterport} alt='matterport' style={{  width: '80%', height: 'auto'}}/>
       </MapWrapper>
     </Container>
   );
